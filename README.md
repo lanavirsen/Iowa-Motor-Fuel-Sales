@@ -1,7 +1,5 @@
 # :fuelpump: Iowa Motor Fuel Sales Project
 
-## :construction: This repository is a Work-In-Progress :construction:
-
 ![Iowa logo](https://github.com/lanavirsen/Iowa-Motor-Fuel-Sales/assets/101061448/d8279a2f-619b-46b7-9cf0-829a041da9c4)
 
 # Introduction
@@ -33,11 +31,16 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 - **NumPy**: A fundamental package for scientific computing in Python.
 - **Jupyter Notebook**: Interactive computing environment used for documenting the data analysis process.
 
+### The files
+
+- [My Jupyter Notebook File](Iowa_Motor_Fuel_Sales.ipynb)
+- [The Dataset](Iowa_Motor_Fuel_Sales_by_County_and_Year_.csv) - the version I used for this project, as the original is continuously updated
+
 # Data Sources
 
 1. The dataset **"Iowa Motor Fuel Sales by County and Year"** has been provided by: Iowa Department of Revenue.
 
-- [Dataset link](https://data.iowa.gov/Sales-Distribution/Iowa-Motor-Fuel-Sales-by-County-and-Year/hbwp-wys3/about_data)  
+- Link: [https://data.iowa.gov/Sales-Distribution/Iowa-Motor-Fuel-Sales-by-County-and-Year/hbwp-wys3/about_data](https://data.iowa.gov/Sales-Distribution/Iowa-Motor-Fuel-Sales-by-County-and-Year/hbwp-wys3/about_data)  
 - Access & Use information: This dataset is intended for public access and use.
 - License: CC0
 - Data Last Updated: March 4, 2024
@@ -47,7 +50,7 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 
 2. The Shapefile **"Iowa County Boundaries"**, used for geographical visualization, has been provided by: Iowa Geospatial Data Clearinghouse.
 
-- [Shapefile link](https://geodata.iowa.gov/datasets/iowa::iowa-county-boundaries/about)
+- Link: [https://geodata.iowa.gov/datasets/iowa::iowa-county-boundaries/about](https://geodata.iowa.gov/datasets/iowa::iowa-county-boundaries/about)
 - Accessibility: Public - anyone can see this content
 - Data Updated: January 28, 2020
 
