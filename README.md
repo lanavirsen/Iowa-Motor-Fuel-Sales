@@ -6,7 +6,7 @@
 
 In this project, I explore the dataset **"Iowa Motor Fuel Sales by County and Year"**.
 
-### About the dataset
+## About the dataset
 
 From **data.iowa.gov**:
 
@@ -14,14 +14,14 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 
 **The State of Iowa set a goal to replace 25.0 percent of petroleum in Iowa with biofuel by 2020,** and the `Biofuel Distribution Percentage` measures how the State is doing toward meeting that goal. 
 
-### Within the scope of this project, I aim to answer the following questions:
+## Within the scope of this project, I aim to answer the following questions:
 
 - How have sales of different types of fuel changed over the 2012-2022 period?
 - How do fuel sales and the biofuel distribution percentage correlate with the number of retail locations?
 - What is the biofuel distribution percentage across different counties, and how does it compare to the state's goal?
 - How does the biofuel distribution percentage trend over the years, and does the state meet its 2020 goal?
 
-### The tools I use:
+## The tools I use:
 
 - **Python**: Primary programming language used for data manipulation and analysis.
 - **Pandas**: Python library for data manipulation and analysis, used for cleaning and transforming the dataset.
@@ -31,10 +31,10 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 - **NumPy**: A fundamental package for scientific computing in Python.
 - **Jupyter Notebook**: Interactive computing environment used for documenting the data analysis process.
 
-### The files
+## The files
 
-- [My Jupyter Notebook File](Iowa_Motor_Fuel_Sales.ipynb)
-- [The Dataset](Iowa_Motor_Fuel_Sales_by_County_and_Year_.csv) - the version I used for this project, as the original is continuously updated
+- [My Jupyter Notebook file](Iowa_Motor_Fuel_Sales.ipynb)
+- [The dataset (.csv)](Iowa_Motor_Fuel_Sales_by_County_and_Year_.csv) - the version I used for this project, as the original is continuously updated
 
 # Data Sources
 
