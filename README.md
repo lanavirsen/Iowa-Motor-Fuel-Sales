@@ -23,13 +23,13 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 
 ## The tools I use:
 
-- **Python**: Primary programming language used for data manipulation and analysis.
-- **Pandas**: Python library for data manipulation and analysis, used for cleaning and transforming the dataset.
-- **Matplotlib/Seaborn**: Visualization libraries in Python, employed for creating plots and graphs to explore data trends.
-- **Geopandas**: An extension of Pandas, used for working with geospatial data.
-- **Scikit-learn**: Machine learning library used for predictive modeling and analysis.
+- **Python**: Primary programming language for data manipulation and analysis.
+- **Pandas**: A Python library utilized for cleaning and transforming datasets.
+- **Matplotlib/Seaborn**: These visualization libraries generate plots and graphs to explore data trends.
+- **Geopandas**: An extension of Pandas for working with geospatial data.
+- **Scikit-learn**: A toolkit for predictive modeling and machine learning analysis.
 - **NumPy**: A fundamental package for scientific computing in Python.
-- **Jupyter Notebook**: Interactive computing environment used for documenting the data analysis process.
+- **Jupyter Notebook**: An interactive environment for documenting the data analysis process.
 
 ## The files
 
