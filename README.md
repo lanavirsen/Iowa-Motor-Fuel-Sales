@@ -36,7 +36,7 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 - [My Jupyter Notebook file](Iowa_Motor_Fuel_Sales.ipynb)
 - [The dataset (.csv)](Iowa_Motor_Fuel_Sales_by_County_and_Year_.csv) - the version I used for this project, as the original is continuously updated
 
-# Data Sources
+# Data sources
 
 1. The dataset **"Iowa Motor Fuel Sales by County and Year"** has been provided by: Iowa Department of Revenue.
 
@@ -54,7 +54,7 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 - Accessibility: Public - anyone can see this content
 - Data Updated: January 28, 2020
 
-# The dataset's description
+## The dataset's description
 
 The dataset has 9 columns and 1075 rows.
 
@@ -74,33 +74,33 @@ The dataset has 9 columns and 1075 rows.
 
 # Steps done
 
-## 1. Data Cleaning
+## 1. Data cleaning
 
-### 1.1. Renaming Columns
+### 1.1. Renaming columns
 
 I needed to rename one column due to a formatting issue.
 
-### 1.2. Handling Missing Values
+### 1.2. Handling missing values
 
 The dataset contained missing values in various columns
 
 After closer inspection, I decided to keep the missing values for now, as most of them wouldn't affect the analysis I was conducting in the scope of this project. The ones that later proved to affect the integrity of the geographical visualization got imputed (through interpolation and extrapolation) in one of the following steps. 
 
-### 1.3. Considerations Regarding Data Types
+### 1.3. Considerations regarding data types
 
 Three of the columns that were expected to have integer values had their data type set to float due to the missing values present.
 
 As I decided to keep the missing values, the data type of the columns remained set to float. 
 
-### 1.4. Checking String Case
+### 1.4. Checking string case
 
 To avoid possible future issues when I would be merging the dataset with geographical data, I reinforced title case in the `County` column.
 
-### 1.5. Handling Duplicates
+### 1.5. Handling duplicates
 
 There were no duplicates in the dataset.
 
-### 1.6. Identifying Outliers
+### 1.6. Identifying outliers
 
 The dataset revealed a great number of outliers in different columns. 
 
@@ -108,17 +108,17 @@ After a thorough investigation, I replaced some outliers that appeared to be err
 
 ## 2. Analysis
 
-### 2.1. Trend Analysis
+### 2.1. Trend analysis
 
 I analyzed sales trends over the years to understand the market dynamics for different types of fuels.
 
-### 2.2. Impact of Retail Locations
+### 2.2. Impact of retail locations
 
 I evaluated the impact of the `Number of Retail Locations` on fuel sales, as well as the `Biofuel Distribution Percentage`.
 
 To explore the relationship, I used scatter plots and correlation analysis. 
 
-### 2.3. Regional Insights
+### 2.3. Regional insights
 
 I examined the `Biofuel Distribution Percentage` across different counties through geographical visualization.
 
@@ -126,7 +126,7 @@ For that, I used **geopandas** library and a shapefile defining the boundaries o
 
 As the visualization revealed missing values for the `Biofuel Distribution Percentage` for some counties for certain years, these values got imputed (through interpolation and extrapolation).
 
-### 2.4. Biofuel Adoption
+### 2.4. Biofuel adoption
 
 - I assessed Iowa's progress towards the state's goal of replacing 25% of petroleum with biofuel by 2020.
 - I identified counties with `Biofuel Distribution` equal or above 25% in 2020.
