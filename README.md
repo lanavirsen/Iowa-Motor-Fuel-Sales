@@ -26,7 +26,7 @@ Iowa motor fuel retailers are businesses that offer a range of fuel options, inc
 - **Python**: Primary programming language for data manipulation and analysis.
 - **Pandas**: A Python library utilized for cleaning and transforming datasets.
 - **Matplotlib/Seaborn**: These visualization libraries generate plots and graphs to explore data trends.
-- **Geopandas**: An extension of Pandas for working with geospatial data.
+- **GeoPandas**: An extension of Pandas for working with geospatial data.
 - **Scikit-learn**: A toolkit for predictive modeling and machine learning analysis.
 - **NumPy**: A fundamental package for scientific computing in Python.
 - **Jupyter Notebook**: An interactive environment for documenting the data analysis process.
