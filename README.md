@@ -1,4 +1,4 @@
-# :fuelpump: Iowa Motor Fuel Sales Project
+# :fuelpump: Iowa Motor Fuel Sales Analysis
 
 ![Iowa logo](https://github.com/lanavirsen/Iowa-Motor-Fuel-Sales/assets/101061448/d8279a2f-619b-46b7-9cf0-829a041da9c4)
 
